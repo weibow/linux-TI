@@ -1,0 +1,29 @@
+" Press <F1> for help
+
+-[F]kernel {
+ |-dma.c
+ |-exit.c
+ |-fork.c
+ |-info.c
+ |-ioport.c
+ |-irq.c
+ |-itimer.c
+ |-kernel.exvim
+ |-ksyms.S
+ |-ksyms.sh
+ |-ldt.c
+ |-Makefile
+ |-mktime.c
+ |-module.c
+ |-panic.c
+ |-printk.c
+ |-ptrace.c
+ |-sched.c
+ |-signal.c
+ |-sys.c
+ |-sys_call.S
+ |-time.c
+ |-traps.c
+ |-vsprintf.c }
+
+

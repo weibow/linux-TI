@@ -1,0 +1,476 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CF_MASK	./sys_call.S	/^CF_MASK		= 0x00000001$/;"	d
+CODE	./signal.c	261;"	d	file:
+CODE	./signal.c	300;"	d	file:
+COPY	./signal.c	219;"	d	file:
+COPY_SEG	./signal.c	220;"	d	file:
+COPY_SEG_STRICT	./signal.c	222;"	d	file:
+CR0_NE	./irq.c	36;"	d	file:
+CS	./sys_call.S	/^CS		= 0x34$/;"	d
+C_A_D	./sys.c	/^static int C_A_D = 1;$/;"	v	file:
+DAY	./mktime.c	22;"	d	file:
+DEBUG_PROC_TREE	./exit.c	7;"	d	file:
+DEFAULT_CONSOLE_LOGLEVEL	./printk.c	31;"	d	file:
+DEFAULT_MESSAGE_LOGLEVEL	./printk.c	30;"	d	file:
+DO_ERROR	./traps.c	31;"	d	file:
+DS	./sys_call.S	/^DS		= 0x1C$/;"	d
+EAX	./sys_call.S	/^EAX		= 0x18$/;"	d
+EBP	./sys_call.S	/^EBP		= 0x14$/;"	d
+EBX	./sys_call.S	/^EBX		= 0x00$/;"	d
+ECX	./sys_call.S	/^ECX		= 0x04$/;"	d
+EDI	./sys_call.S	/^EDI		= 0x10$/;"	d
+EDX	./sys_call.S	/^EDX		= 0x08$/;"	d
+EFLAGS	./sys_call.S	/^EFLAGS		= 0x38$/;"	d
+EIP	./sys_call.S	/^EIP		= 0x30$/;"	d
+EISA_bus	./sched.c	/^int EISA_bus = 0;$/;"	v
+ENOSYS	./sys_call.S	/^ENOSYS = 38$/;"	d
+ES	./sys_call.S	/^ES		= 0x20$/;"	d
+ESI	./sys_call.S	/^ESI		= 0x0C$/;"	d
+FLAG_MASK	./ptrace.c	24;"	d	file:
+FS	./sys_call.S	/^FS		= 0x24$/;"	d
+GS	./sys_call.S	/^GS		= 0x28$/;"	d
+HOUR	./mktime.c	21;"	d	file:
+IF_MASK	./sys_call.S	/^IF_MASK		= 0x00000200$/;"	d
+IS_CLONE	./fork.c	116;"	d	file:
+LEFT	./vsprintf.c	58;"	d	file:
+LOG_BUF_LEN	./printk.c	23;"	d	file:
+MAGICNUMBER	./ptrace.c	33;"	d	file:
+MAX_TASKS_PER_USER	./fork.c	32;"	d	file:
+MINUTE	./mktime.c	20;"	d	file:
+MIN_TASKS_LEFT_FOR_ROOT	./fork.c	33;"	d	file:
+NR_syscalls	./sched.c	/^int NR_syscalls = sizeof(sys_call_table)\/sizeof(fn_ptr);$/;"	v
+NT_MASK	./sys_call.S	/^NT_MASK		= 0x00004000$/;"	d
+OBJS	./Makefile	/^OBJS  = sched.o sys_call.o traps.o irq.o dma.o fork.o \\$/;"	m
+OLDESP	./sys_call.S	/^OLDESP		= 0x3C$/;"	d
+OLDSS	./sys_call.S	/^OLDSS		= 0x40$/;"	d
+ORIG_EAX	./sys_call.S	/^ORIG_EAX	= 0x2C$/;"	d
+PLUS	./vsprintf.c	56;"	d	file:
+PZERO	./sys.c	31;"	d	file:
+RESTORE_ALL	./sys_call.S	/^#define RESTORE_ALL \\$/;"	d
+RTC_ALWAYS_BCD	./time.c	30;"	d	file:
+SAVE_ALL	./sys_call.S	/^#define SAVE_ALL \\$/;"	d
+SIGN	./vsprintf.c	55;"	d	file:
+SMALL	./vsprintf.c	60;"	d	file:
+SPACE	./vsprintf.c	57;"	d	file:
+SPECIAL	./vsprintf.c	59;"	d	file:
+TICK_SIZE	./time.c	141;"	d	file:
+TIMER_IRQ	./sched.c	33;"	d	file:
+TRAP_FLAG	./ptrace.c	27;"	d	file:
+VM_MASK	./sys_call.S	/^VM_MASK		= 0x00020000$/;"	d
+YEAR	./mktime.c	23;"	d	file:
+ZEROPAD	./vsprintf.c	54;"	d	file:
+_BLOCKABLE	./signal.c	19;"	d	file:
+_IODEBUG	./ioport.c	16;"	d	file:
+_S	./sched.c	81;"	d	file:
+_S	./signal.c	17;"	d	file:
+__CODE	./signal.c	260;"	d	file:
+__CODE	./signal.c	299;"	d	file:
+___verify_write	./ksyms.S	/^___verify_write$/;"	l
+__anon1::a	./sched.c	/^	long * a;$/;"	m	struct:__anon1	file:	access:public
+__anon1::b	./sched.c	/^	short b;$/;"	m	struct:__anon1	file:	access:public
+__csh	./signal.c	/^	unsigned short cs, __csh;$/;"	m	struct:sigcontext_struct	file:	access:public
+__down	./sched.c	/^void __down(struct semaphore * sem)$/;"	f	signature:(struct semaphore * sem)
+__dsh	./signal.c	/^	unsigned short ds, __dsh;$/;"	m	struct:sigcontext_struct	file:	access:public
+__esh	./signal.c	/^	unsigned short es, __esh;$/;"	m	struct:sigcontext_struct	file:	access:public
+__fsh	./signal.c	/^	unsigned short fs, __fsh;$/;"	m	struct:sigcontext_struct	file:	access:public
+__gsh	./signal.c	/^	unsigned short gs, __gsh;$/;"	m	struct:sigcontext_struct	file:	access:public
+__sleep_on	./sched.c	/^static inline void __sleep_on(struct wait_queue **p, int state)$/;"	f	file:	signature:(struct wait_queue **p, int state)
+__ssh	./signal.c	/^	unsigned short ss, __ssh;$/;"	m	struct:sigcontext_struct	file:	access:public
+_alignment_check	./sys_call.S	/^_alignment_check:$/;"	l
+_bounds	./sys_call.S	/^_bounds:$/;"	l
+_coprocessor_error	./sys_call.S	/^_coprocessor_error:$/;"	l
+_coprocessor_segment_overrun	./sys_call.S	/^_coprocessor_segment_overrun:$/;"	l
+_current	./ksyms.S	/^_current$/;"	l
+_debug	./sys_call.S	/^_debug:$/;"	l
+_device_not_available	./sys_call.S	/^_device_not_available:$/;"	l
+_divide_error	./sys_call.S	/^_divide_error:$/;"	l
+_do_floppy	./ksyms.S	/^_do_floppy$/;"	l
+_double_fault	./sys_call.S	/^_double_fault:$/;"	l
+_fs	./traps.c	54;"	d	file:
+_ftape_big_buffer	./ksyms.S	/^_ftape_big_buffer$/;"	l
+_general_protection	./sys_call.S	/^_general_protection:$/;"	l
+_getitimer	./itimer.c	/^int _getitimer(int which, struct itimerval *value)$/;"	f	signature:(int which, struct itimerval *value)
+_int3	./sys_call.S	/^_int3:$/;"	l
+_invalid_TSS	./sys_call.S	/^_invalid_TSS:$/;"	l
+_invalid_op	./sys_call.S	/^_invalid_op:$/;"	l
+_jiffies	./ksyms.S	/^_jiffies$/;"	l
+_lcall7	./sys_call.S	/^_lcall7:$/;"	l
+_nmi	./sys_call.S	/^_nmi:$/;"	l
+_overflow	./sys_call.S	/^_overflow:$/;"	l
+_page_fault	./sys_call.S	/^_page_fault:$/;"	l
+_printk	./ksyms.S	/^_printk$/;"	l
+_register_blkdev	./ksyms.S	/^_register_blkdev$/;"	l
+_register_chrdev	./ksyms.S	/^_register_chrdev$/;"	l
+_reserved	./sys_call.S	/^_reserved:$/;"	l
+_schedule	./ksyms.S	/^_schedule$/;"	l
+_segment_not_present	./sys_call.S	/^_segment_not_present:$/;"	l
+_setitimer	./itimer.c	/^int _setitimer(int which, struct itimerval *value, struct itimerval *ovalue)$/;"	f	signature:(int which, struct itimerval *value, struct itimerval *ovalue)
+_setitimer	./sched.c	/^extern int _setitimer(int, struct itimerval *, struct itimerval *);$/;"	p	file:	signature:(int, struct itimerval *, struct itimerval *)
+_stack_segment	./sys_call.S	/^_stack_segment:$/;"	l
+_system_call	./sys_call.S	/^_system_call:$/;"	l
+_unregister_blkdev	./ksyms.S	/^_unregister_blkdev$/;"	l
+_unregister_chrdev	./ksyms.S	/^_unregister_chrdev$/;"	l
+_wake_up_interruptible	./ksyms.S	/^_wake_up_interruptible$/;"	l
+_wp_works_ok	./ksyms.S	/^_wp_works_ok$/;"	l
+a	./sched.c	/^	long * a;$/;"	m	struct:__anon1	file:	access:public
+add_timer	./sched.c	/^void add_timer(struct timer_list * timer)$/;"	f	signature:(struct timer_list * timer)
+adjust_clock	./sys.c	/^extern void adjust_clock(void);$/;"	p	file:	signature:(void)
+alignment_check	./traps.c	/^asmlinkage void alignment_check(void);$/;"	p	file:	signature:(void)
+audit_ptree	./exit.c	/^void audit_ptree(void)$/;"	f	signature:(void)
+avenrun	./sched.c	/^unsigned long avenrun[3] = { 0,0,0 };$/;"	v
+b	./sched.c	/^	short b;$/;"	m	struct:__anon1	file:	access:public
+bad_interrupt	./irq.c	/^static void (*bad_interrupt[16])(void) = {$/;"	v	file:
+bad_task_ptr	./exit.c	/^int bad_task_ptr(struct task_struct *p)$/;"	f	signature:(struct task_struct *p)
+bh_active	./irq.c	/^unsigned long bh_active = 0;$/;"	v
+bh_base	./irq.c	/^struct bh_struct bh_base[32]; $/;"	v	typeref:struct:bh_struct
+bh_mask	./irq.c	/^unsigned long bh_mask = 0xFFFFFFFF;$/;"	v
+blocked	./sys_call.S	/^blocked		= 16$/;"	d
+bounds	./traps.c	/^asmlinkage void bounds(void);$/;"	p	file:	signature:(void)
+buf	./printk.c	/^static char buf[1024];$/;"	v	file:
+cache_21	./irq.c	/^static unsigned char cache_21 = 0xff;$/;"	v	file:
+cache_A1	./irq.c	/^static unsigned char cache_A1 = 0xff;$/;"	v	file:
+calc_load	./sched.c	/^static inline void calc_load(void)$/;"	f	file:	signature:(void)
+check_bitmap	./ioport.c	/^asmlinkage int check_bitmap(unsigned long *bitmap, short base, short extent)$/;"	f	signature:(unsigned long *bitmap, short base, short extent)
+check_pending	./signal.c	/^static void check_pending(int signum)$/;"	f	file:	signature:(int signum)
+check_region	./ioport.c	/^int check_region(unsigned int from, unsigned int num)$/;"	f	signature:(unsigned int from, unsigned int num)
+console_loglevel	./printk.c	/^int console_loglevel = DEFAULT_CONSOLE_LOGLEVEL;$/;"	v
+console_print	./printk.c	/^extern void console_print(const char *);$/;"	p	file:	signature:(const char *)
+console_print_proc	./printk.c	/^static void (*console_print_proc)(const char *) = 0;$/;"	v	file:
+console_verbose	./traps.c	/^static inline void console_verbose(void)$/;"	f	file:	signature:(void)
+coprocessor_error	./traps.c	/^asmlinkage void coprocessor_error(void);$/;"	p	file:	signature:(void)
+coprocessor_segment_overrun	./traps.c	/^asmlinkage void coprocessor_segment_overrun(void);$/;"	p	file:	signature:(void)
+copy_fd	./fork.c	/^static struct file * copy_fd(struct file * old_file)$/;"	f	file:	signature:(struct file * old_file)
+copy_vm	./fork.c	117;"	d	file:
+core_dump	./signal.c	/^extern int core_dump(long signr,struct pt_regs * regs);$/;"	p	file:	signature:(long signr,struct pt_regs * regs)
+count_active_tasks	./sched.c	/^static unsigned long count_active_tasks(void)$/;"	f	file:	signature:(void)
+counter	./sys_call.S	/^counter		=  4$/;"	d
+cr2	./signal.c	/^	unsigned long cr2;$/;"	m	struct:sigcontext_struct	file:	access:public
+cs	./signal.c	/^	unsigned short cs, __csh;$/;"	m	struct:sigcontext_struct	file:	access:public
+ctrl_alt_del	./sys.c	/^void ctrl_alt_del(void)$/;"	f	signature:(void)
+current	./sched.c	/^struct task_struct *current = &init_task;$/;"	v	typeref:struct:task_struct
+dbgreg6	./sys_call.S	/^dbgreg6		= 52$/;"	d
+dbgreg7	./sys_call.S	/^dbgreg7		= 56$/;"	d
+debug	./traps.c	/^asmlinkage void debug(void);$/;"	p	file:	signature:(void)
+del_timer	./sched.c	/^int del_timer(struct timer_list * timer)$/;"	f	signature:(struct timer_list * timer)
+device_not_available	./traps.c	/^asmlinkage void device_not_available(void);$/;"	p	file:	signature:(void)
+die_if_kernel	./traps.c	/^\/*static*\/ void die_if_kernel(char * str, struct pt_regs * regs, long err)$/;"	f	signature:(char * str, struct pt_regs * regs, long err)
+disable_irq	./irq.c	/^void disable_irq(unsigned int irq_nr)$/;"	f	signature:(unsigned int irq_nr)
+divide_error	./traps.c	/^asmlinkage void divide_error(void);$/;"	p	file:	signature:(void)
+dma_chan_busy	./dma.c	/^static volatile unsigned int dma_chan_busy[MAX_DMA_CHANNELS] = {$/;"	v	file:
+do_IRQ	./irq.c	/^asmlinkage void do_IRQ(int irq, struct pt_regs * regs)$/;"	f	signature:(int irq, struct pt_regs * regs)
+do_bottom_half	./irq.c	/^asmlinkage void do_bottom_half(void)$/;"	f	signature:(void)
+do_coprocessor_error	./traps.c	/^asmlinkage void do_coprocessor_error(struct pt_regs * regs, long error_code)$/;"	f	signature:(struct pt_regs * regs, long error_code)
+do_debug	./traps.c	/^asmlinkage void do_debug(struct pt_regs * regs, long error_code)$/;"	f	signature:(struct pt_regs * regs, long error_code)
+do_div	./vsprintf.c	62;"	d	file:
+do_exit	./exit.c	/^NORET_TYPE void do_exit(long code)$/;"	f	signature:(long code)
+do_fast_IRQ	./irq.c	/^asmlinkage void do_fast_IRQ(int irq)$/;"	f	signature:(int irq)
+do_gettimeofday	./time.c	/^static inline void do_gettimeofday(struct timeval *tv)$/;"	f	file:	signature:(struct timeval *tv)
+do_gettimeoffset	./time.c	/^static inline unsigned long do_gettimeoffset(void)$/;"	f	file:	signature:(void)
+do_nmi	./traps.c	/^asmlinkage void do_nmi(struct pt_regs * regs, long error_code)$/;"	f	signature:(struct pt_regs * regs, long error_code)
+do_signal	./signal.c	/^asmlinkage int do_signal(unsigned long oldmask, struct pt_regs * regs)$/;"	f	signature:(unsigned long oldmask, struct pt_regs * regs)
+do_signal	./signal.c	/^asmlinkage int do_signal(unsigned long oldmask, struct pt_regs * regs);$/;"	p	file:	signature:(unsigned long oldmask, struct pt_regs * regs)
+do_timer	./sched.c	/^static void do_timer(struct pt_regs * regs)$/;"	f	file:	signature:(struct pt_regs * regs)
+double_fault	./traps.c	/^asmlinkage void double_fault(void);$/;"	p	file:	signature:(void)
+ds	./signal.c	/^	unsigned short ds, __dsh;$/;"	m	struct:sigcontext_struct	file:	access:public
+dump_io_bitmap	./ioport.c	/^static void dump_io_bitmap(void)$/;"	f	file:	signature:(void)
+dup_mmap	./fork.c	/^int dup_mmap(struct task_struct * tsk)$/;"	f	signature:(struct task_struct * tsk)
+eax	./signal.c	/^	unsigned long eax;$/;"	m	struct:sigcontext_struct	file:	access:public
+ebp	./signal.c	/^	unsigned long ebp;$/;"	m	struct:sigcontext_struct	file:	access:public
+ebx	./signal.c	/^	unsigned long ebx;$/;"	m	struct:sigcontext_struct	file:	access:public
+ecx	./signal.c	/^	unsigned long ecx;$/;"	m	struct:sigcontext_struct	file:	access:public
+edi	./signal.c	/^	unsigned long edi;$/;"	m	struct:sigcontext_struct	file:	access:public
+edx	./signal.c	/^	unsigned long edx;$/;"	m	struct:sigcontext_struct	file:	access:public
+eflags	./signal.c	/^	unsigned long eflags;$/;"	m	struct:sigcontext_struct	file:	access:public
+eip	./signal.c	/^	unsigned long eip;$/;"	m	struct:sigcontext_struct	file:	access:public
+enable_irq	./irq.c	/^void enable_irq(unsigned int irq_nr)$/;"	f	signature:(unsigned int irq_nr)
+err	./signal.c	/^	unsigned long err;$/;"	m	struct:sigcontext_struct	file:	access:public
+errno	./sys_call.S	/^errno		= 24$/;"	d
+error_code	./sys_call.S	/^error_code:$/;"	l
+es	./signal.c	/^	unsigned short es, __esh;$/;"	m	struct:sigcontext_struct	file:	access:public
+esi	./signal.c	/^	unsigned long esi;$/;"	m	struct:sigcontext_struct	file:	access:public
+esp	./signal.c	/^	unsigned long esp;$/;"	m	struct:sigcontext_struct	file:	access:public
+esp_at_signal	./signal.c	/^	unsigned long esp_at_signal;$/;"	m	struct:sigcontext_struct	file:	access:public
+fast_interrupt	./irq.c	/^static void (*fast_interrupt[16])(void) = {$/;"	v	file:
+find_empty_process	./fork.c	/^static int find_empty_process(void)$/;"	f	file:	signature:(void)
+find_module	./module.c	/^find_module( const char *name)$/;"	f	signature:( const char *name)
+find_module	./module.c	/^struct module *find_module( const char *name);$/;"	p	file:	signature:( const char *name)
+flags	./sys_call.S	/^flags		= 20$/;"	d
+forget_original_parent	./exit.c	/^static void forget_original_parent(struct task_struct * father)$/;"	f	file:	signature:(struct task_struct * father)
+free_dma	./dma.c	/^void free_dma(unsigned int dmanr)$/;"	f	signature:(unsigned int dmanr)
+free_irq	./irq.c	/^void free_irq(unsigned int irq)$/;"	f	signature:(unsigned int irq)
+free_modules	./module.c	/^free_modules( void)$/;"	f	signature:( void)
+free_modules	./module.c	/^int free_modules( void);$/;"	p	file:	signature:( void)
+freeing_modules	./module.c	/^int freeing_modules;		\/* true if some modules are marked for deletion *\/$/;"	v
+fs	./signal.c	/^	unsigned short fs, __fsh;$/;"	m	struct:sigcontext_struct	file:	access:public
+general_protection	./traps.c	/^asmlinkage void general_protection(void);$/;"	p	file:	signature:(void)
+generate	./exit.c	/^static int generate(unsigned long sig, struct task_struct * p)$/;"	f	file:	signature:(unsigned long sig, struct task_struct * p)
+get_long	./ptrace.c	/^static unsigned long get_long(struct task_struct * tsk,$/;"	f	file:	signature:(struct task_struct * tsk, unsigned long addr)
+get_mod_name	./module.c	/^get_mod_name(char *user_name, char *buf)$/;"	f	signature:(char *user_name, char *buf)
+get_mod_name	./module.c	/^int get_mod_name( char *user_name, char *buf);$/;"	p	file:	signature:( char *user_name, char *buf)
+get_module_list	./module.c	/^int get_module_list(char *buf)$/;"	f	signature:(char *buf)
+get_seg_byte	./traps.c	42;"	d	file:
+get_seg_long	./traps.c	48;"	d	file:
+get_stack_long	./ptrace.c	/^static inline int get_stack_long(struct task_struct *task, int offset)$/;"	f	file:	signature:(struct task_struct *task, int offset)
+get_task	./ptrace.c	/^static inline struct task_struct * get_task(int pid)$/;"	f	file:	signature:(int pid)
+getrusage	./exit.c	/^int getrusage(struct task_struct *, int, struct rusage *);$/;"	p	file:	signature:(struct task_struct *, int, struct rusage *)
+getrusage	./sys.c	/^int getrusage(struct task_struct *p, int who, struct rusage *ru)$/;"	f	signature:(struct task_struct *p, int who, struct rusage *ru)
+gs	./signal.c	/^	unsigned short gs, __gsh;$/;"	m	struct:sigcontext_struct	file:	access:public
+handle_bottom_half	./sys_call.S	/^handle_bottom_half:$/;"	l
+hard_math	./sched.c	/^int hard_math = 0;		\/* set by boot\/head.S *\/$/;"	v
+hard_reset_now	./sys.c	/^extern void hard_reset_now(void);$/;"	p	file:	signature:(void)
+has_stopped_jobs	./exit.c	/^static int has_stopped_jobs(int pgrp)$/;"	f	file:	signature:(int pgrp)
+i387	./signal.c	/^	unsigned long i387;$/;"	m	struct:sigcontext_struct	file:	access:public
+ignore_IRQ	./irq.c	/^static struct sigaction ignore_IRQ = {$/;"	v	typeref:struct:sigaction	file:
+ignore_irq13	./sched.c	/^int ignore_irq13 = 0;		\/* set if exception 16 works *\/$/;"	v
+in_group_p	./sys.c	/^int in_group_p(gid_t grp)$/;"	f	signature:(gid_t grp)
+init_IRQ	./irq.c	/^void init_IRQ(void)$/;"	f	signature:(void)
+init_kernel_stack	./sched.c	/^static unsigned long init_kernel_stack[1024];$/;"	v	file:
+init_task	./sched.c	/^struct task_struct init_task = INIT_TASK;$/;"	v	typeref:struct:task_struct
+int3	./traps.c	/^asmlinkage void int3(void);$/;"	p	file:	signature:(void)
+interrupt	./irq.c	/^static void (*interrupt[16])(void) = {$/;"	v	file:
+interruptible_sleep_on	./sched.c	/^void interruptible_sleep_on(struct wait_queue **p)$/;"	f	signature:(struct wait_queue **p)
+intr_count	./irq.c	/^unsigned long intr_count = 0;$/;"	v
+invalid_TSS	./traps.c	/^asmlinkage void invalid_TSS(void);$/;"	p	file:	signature:(void)
+invalid_op	./traps.c	/^asmlinkage void invalid_op(void);$/;"	p	file:	signature:(void)
+ioport_registrar	./ioport.c	/^static unsigned long ioport_registrar[IO_BITMAP_SIZE] = {0, \/* ... *\/};$/;"	v	file:
+ios	./ioport.c	/^static char * ios(unsigned long l)$/;"	f	file:	signature:(unsigned long l)
+irq_sigaction	./irq.c	/^static struct sigaction irq_sigaction[16] = {$/;"	v	typeref:struct:sigaction	file:
+irqaction	./irq.c	/^int irqaction(unsigned int irq, struct sigaction * new_sa)$/;"	f	signature:(unsigned int irq, struct sigaction * new_sa)
+is_digit	./vsprintf.c	43;"	d	file:
+is_orphaned_pgrp	./exit.c	/^int is_orphaned_pgrp(int pgrp)$/;"	f	signature:(int pgrp)
+itimer_next	./sched.c	/^unsigned long itimer_next = ~0;$/;"	v
+itimer_ticks	./sched.c	/^unsigned long itimer_ticks = 0;$/;"	v
+jiffies	./sched.c	/^unsigned long volatile jiffies=0;$/;"	v
+jiffiestotv	./itimer.c	/^static void jiffiestotv(unsigned long jiffies, struct timeval *value)$/;"	f	file:	signature:(unsigned long jiffies, struct timeval *value)
+kernel_mktime	./mktime.c	/^long kernel_mktime(struct mktime * time)$/;"	f	signature:(struct mktime * time)
+kernel_mktime	./time.c	/^extern long kernel_mktime(struct mktime * time);$/;"	p	file:	signature:(struct mktime * time)
+kill_pg	./exit.c	/^int kill_pg(int pgrp, int sig, int priv)$/;"	f	signature:(int pgrp, int sig, int priv)
+kill_proc	./exit.c	/^int kill_proc(int pid, int sig, int priv)$/;"	f	signature:(int pid, int sig, int priv)
+kill_sl	./exit.c	/^int kill_sl(int sess, int sig, int priv)$/;"	f	signature:(int sess, int sig, int priv)
+kstat	./sched.c	/^struct kernel_stat kstat =$/;"	v	typeref:struct:kernel_stat
+last_pid	./fork.c	/^long last_pid=0;$/;"	v
+last_task_used_math	./sched.c	/^struct task_struct *last_task_used_math = NULL;$/;"	v	typeref:struct:task_struct
+log_buf	./printk.c	/^static char log_buf[LOG_BUF_LEN];$/;"	v	file:
+log_size	./printk.c	/^unsigned long log_size = 0;$/;"	v
+log_start	./printk.c	/^static unsigned long log_start = 0;$/;"	v	file:
+log_wait	./printk.c	/^struct wait_queue * log_wait = NULL;$/;"	v	typeref:struct:wait_queue
+logged_chars	./printk.c	/^static unsigned long logged_chars = 0;$/;"	v	file:
+lost_ticks	./sched.c	/^static unsigned long lost_ticks = 0;$/;"	v	file:
+mark_screen_rdonly	./sys.c	/^static void mark_screen_rdonly(struct task_struct * tsk)$/;"	f	file:	signature:(struct task_struct * tsk)
+math_emulate	./sched.c	/^asmlinkage void math_emulate(long arg)$/;"	f	signature:(long arg)
+math_error	./traps.c	/^void math_error(void)$/;"	f	signature:(void)
+math_error_irq	./irq.c	/^static void math_error_irq(int cpl)$/;"	f	file:	signature:(int cpl)
+math_state_restore	./sched.c	/^asmlinkage void math_state_restore(void)$/;"	f	signature:(void)
+mem_use	./sched.c	/^extern void mem_use(void);$/;"	p	file:	signature:(void)
+module_list	./module.c	/^struct module *module_list = NULL;$/;"	v	typeref:struct:module
+month	./mktime.c	/^static int month[12] = {$/;"	v	file:
+mutex_atomic_swap	./dma.c	/^static __inline__ unsigned int mutex_atomic_swap(volatile unsigned int * p, unsigned int newval)$/;"	f	file:	signature:(volatile unsigned int * p, unsigned int newval)
+need_resched	./sched.c	/^int need_resched = 0;$/;"	v
+next_timer	./sched.c	/^static struct timer_list * next_timer = NULL;$/;"	v	typeref:struct:timer_list	file:
+nmi	./traps.c	/^asmlinkage void nmi(void);$/;"	p	file:	signature:(void)
+no_action	./irq.c	/^static void no_action(int cpl) { }$/;"	f	file:	signature:(int cpl)
+notify_parent	./exit.c	/^void notify_parent(struct task_struct * tsk)$/;"	f	signature:(struct task_struct * tsk)
+number	./vsprintf.c	/^static char * number(char * str, int num, int base, int size, int precision$/;"	f	file:	signature:(char * str, int num, int base, int size, int precision ,int type)
+oldmask	./signal.c	/^	unsigned long oldmask;$/;"	m	struct:sigcontext_struct	file:	access:public
+overflow	./traps.c	/^asmlinkage void overflow(void);$/;"	p	file:	signature:(void)
+page_exception	./traps.c	/^void page_exception(void);$/;"	p	file:	signature:(void)
+page_fault	./traps.c	/^asmlinkage void page_fault(void);$/;"	p	file:	signature:(void)
+panic	./panic.c	/^NORET_TYPE void panic(const char * fmt, ...)$/;"	f	signature:(const char * fmt, ...)
+printk	./printk.c	/^asmlinkage int printk(const char *fmt, ...)$/;"	f	signature:(const char *fmt, ...)
+priority	./sys_call.S	/^priority	=  8$/;"	d
+proc_sel	./sys.c	/^static int proc_sel(struct task_struct *p, int which, int who)$/;"	f	file:	signature:(struct task_struct *p, int which, int who)
+prof_buffer	./sched.c	/^unsigned long * prof_buffer = NULL;$/;"	v
+prof_len	./sched.c	/^unsigned long prof_len = 0;$/;"	v
+put_long	./ptrace.c	/^static void put_long(struct task_struct * tsk, unsigned long addr,$/;"	f	file:	signature:(struct task_struct * tsk, unsigned long addr, unsigned long data)
+put_stack_long	./ptrace.c	/^static inline int put_stack_long(struct task_struct *task, int offset,$/;"	f	file:	signature:(struct task_struct *task, int offset, unsigned long data)
+read_ldt	./ldt.c	/^static int read_ldt(void * ptr, unsigned long bytecount)$/;"	f	file:	signature:(void * ptr, unsigned long bytecount)
+read_long	./ptrace.c	/^static int read_long(struct task_struct * tsk, unsigned long addr,$/;"	f	file:	signature:(struct task_struct * tsk, unsigned long addr, unsigned long * result)
+register_console	./printk.c	/^void register_console(void (*proc)(const char *))$/;"	f	signature:(void (*proc)(const char *))
+release	./exit.c	/^void release(struct task_struct * p)$/;"	f	signature:(struct task_struct * p)
+request_dma	./dma.c	/^int request_dma(unsigned int dmanr)$/;"	f	signature:(unsigned int dmanr)
+request_irq	./irq.c	/^int request_irq(unsigned int irq, void (*handler)(int))$/;"	f	signature:(unsigned int irq, void (*handler)(int))
+reschedule	./sys_call.S	/^reschedule:$/;"	l
+reserve_setup	./ioport.c	/^void reserve_setup(char *str, int *ints)$/;"	f	signature:(char *str, int *ints)
+reserved	./traps.c	/^asmlinkage void reserved(void);$/;"	p	file:	signature:(void)
+ret_from_sys_call	./sys_call.S	/^ret_from_sys_call:$/;"	l
+save_v86_state	./sys.c	/^asmlinkage unsigned long save_v86_state(struct vm86_regs * regs)$/;"	f	signature:(struct vm86_regs * regs)
+sched_init	./sched.c	/^void sched_init(void)$/;"	f	signature:(void)
+schedule	./sched.c	/^asmlinkage void schedule(void)$/;"	f	signature:(void)
+second_overflow	./sched.c	/^static void second_overflow(void)$/;"	f	file:	signature:(void)
+segment_not_present	./traps.c	/^asmlinkage void segment_not_present(void);$/;"	p	file:	signature:(void)
+sem_exit	./exit.c	/^extern void sem_exit (void);$/;"	p	file:	signature:(void)
+send_sig	./exit.c	/^int send_sig(unsigned long sig,struct task_struct * p,int priv)$/;"	f	signature:(unsigned long sig,struct task_struct * p,int priv)
+session_of_pgrp	./exit.c	/^int session_of_pgrp(int pgrp)$/;"	f	signature:(int pgrp)
+set_bitmap	./ioport.c	/^asmlinkage void set_bitmap(unsigned long *bitmap,$/;"	f	signature:(unsigned long *bitmap, short base, short extent, int new_value)
+set_rtc_mmss	./time.c	/^int set_rtc_mmss(unsigned long nowtime)$/;"	f	signature:(unsigned long nowtime)
+setup_frame	./signal.c	/^static void setup_frame(struct sigaction * sa, unsigned long ** fp, unsigned long eip,$/;"	f	file:	signature:(struct sigaction * sa, unsigned long ** fp, unsigned long eip, struct pt_regs * regs, int signr, unsigned long oldmask)
+shm_exit	./exit.c	/^extern void shm_exit (void);$/;"	p	file:	signature:(void)
+shm_fork	./fork.c	/^extern int shm_fork(struct task_struct *, struct task_struct *);$/;"	p	file:	signature:(struct task_struct *, struct task_struct *)
+show_state	./sched.c	/^void show_state(void)$/;"	f	signature:(void)
+show_task	./sched.c	/^static void show_task(int nr,struct task_struct * p)$/;"	f	file:	signature:(int nr,struct task_struct * p)
+sigcontext_struct	./signal.c	/^struct sigcontext_struct {$/;"	s	file:
+sigcontext_struct::__csh	./signal.c	/^	unsigned short cs, __csh;$/;"	m	struct:sigcontext_struct	file:	access:public
+sigcontext_struct::__dsh	./signal.c	/^	unsigned short ds, __dsh;$/;"	m	struct:sigcontext_struct	file:	access:public
+sigcontext_struct::__esh	./signal.c	/^	unsigned short es, __esh;$/;"	m	struct:sigcontext_struct	file:	access:public
+sigcontext_struct::__fsh	./signal.c	/^	unsigned short fs, __fsh;$/;"	m	struct:sigcontext_struct	file:	access:public
+sigcontext_struct::__gsh	./signal.c	/^	unsigned short gs, __gsh;$/;"	m	struct:sigcontext_struct	file:	access:public
+sigcontext_struct::__ssh	./signal.c	/^	unsigned short ss, __ssh;$/;"	m	struct:sigcontext_struct	file:	access:public
+sigcontext_struct::cr2	./signal.c	/^	unsigned long cr2;$/;"	m	struct:sigcontext_struct	file:	access:public
+sigcontext_struct::cs	./signal.c	/^	unsigned short cs, __csh;$/;"	m	struct:sigcontext_struct	file:	access:public
+sigcontext_struct::ds	./signal.c	/^	unsigned short ds, __dsh;$/;"	m	struct:sigcontext_struct	file:	access:public
+sigcontext_struct::eax	./signal.c	/^	unsigned long eax;$/;"	m	struct:sigcontext_struct	file:	access:public
+sigcontext_struct::ebp	./signal.c	/^	unsigned long ebp;$/;"	m	struct:sigcontext_struct	file:	access:public
+sigcontext_struct::ebx	./signal.c	/^	unsigned long ebx;$/;"	m	struct:sigcontext_struct	file:	access:public
+sigcontext_struct::ecx	./signal.c	/^	unsigned long ecx;$/;"	m	struct:sigcontext_struct	file:	access:public
+sigcontext_struct::edi	./signal.c	/^	unsigned long edi;$/;"	m	struct:sigcontext_struct	file:	access:public
+sigcontext_struct::edx	./signal.c	/^	unsigned long edx;$/;"	m	struct:sigcontext_struct	file:	access:public
+sigcontext_struct::eflags	./signal.c	/^	unsigned long eflags;$/;"	m	struct:sigcontext_struct	file:	access:public
+sigcontext_struct::eip	./signal.c	/^	unsigned long eip;$/;"	m	struct:sigcontext_struct	file:	access:public
+sigcontext_struct::err	./signal.c	/^	unsigned long err;$/;"	m	struct:sigcontext_struct	file:	access:public
+sigcontext_struct::es	./signal.c	/^	unsigned short es, __esh;$/;"	m	struct:sigcontext_struct	file:	access:public
+sigcontext_struct::esi	./signal.c	/^	unsigned long esi;$/;"	m	struct:sigcontext_struct	file:	access:public
+sigcontext_struct::esp	./signal.c	/^	unsigned long esp;$/;"	m	struct:sigcontext_struct	file:	access:public
+sigcontext_struct::esp_at_signal	./signal.c	/^	unsigned long esp_at_signal;$/;"	m	struct:sigcontext_struct	file:	access:public
+sigcontext_struct::fs	./signal.c	/^	unsigned short fs, __fsh;$/;"	m	struct:sigcontext_struct	file:	access:public
+sigcontext_struct::gs	./signal.c	/^	unsigned short gs, __gsh;$/;"	m	struct:sigcontext_struct	file:	access:public
+sigcontext_struct::i387	./signal.c	/^	unsigned long i387;$/;"	m	struct:sigcontext_struct	file:	access:public
+sigcontext_struct::oldmask	./signal.c	/^	unsigned long oldmask;$/;"	m	struct:sigcontext_struct	file:	access:public
+sigcontext_struct::ss	./signal.c	/^	unsigned short ss, __ssh;$/;"	m	struct:sigcontext_struct	file:	access:public
+sigcontext_struct::trapno	./signal.c	/^	unsigned long trapno;$/;"	m	struct:sigcontext_struct	file:	access:public
+signal	./sys_call.S	/^signal		= 12$/;"	d
+signal_return	./sys_call.S	/^signal_return:$/;"	l
+simple_strtoul	./vsprintf.c	/^unsigned long simple_strtoul(const char *cp,char **endp,unsigned int base)$/;"	f	signature:(const char *cp,char **endp,unsigned int base)
+skip_atoi	./vsprintf.c	/^static int skip_atoi(const char **s)$/;"	f	file:	signature:(const char **s)
+sleep_on	./sched.c	/^void sleep_on(struct wait_queue **p)$/;"	f	signature:(struct wait_queue **p)
+snarf_region	./ioport.c	/^void snarf_region(unsigned int from, unsigned int num)$/;"	f	signature:(unsigned int from, unsigned int num)
+sprintf	./vsprintf.c	/^int sprintf(char * buf, const char *fmt, ...)$/;"	f	signature:(char * buf, const char *fmt, ...)
+ss	./signal.c	/^	unsigned short ss, __ssh;$/;"	m	struct:sigcontext_struct	file:	access:public
+stack	./ioport.c	/^unsigned int *stack;$/;"	v
+stack_segment	./traps.c	/^asmlinkage void stack_segment(void);$/;"	p	file:	signature:(void)
+stack_start	./sched.c	/^	} stack_start = { & user_stack [PAGE_SIZE>>2] , KERNEL_DS };$/;"	v	typeref:struct:__anon1
+state	./sys_call.S	/^state		=  0$/;"	d
+sys_acct	./sys.c	/^asmlinkage int sys_acct(void)$/;"	f	signature:(void)
+sys_adjtimex	./time.c	/^asmlinkage int sys_adjtimex(struct timex *txc_p)$/;"	f	signature:(struct timex *txc_p)
+sys_alarm	./sched.c	/^asmlinkage int sys_alarm(long seconds)$/;"	f	signature:(long seconds)
+sys_break	./sys.c	/^asmlinkage int sys_break(void)$/;"	f	signature:(void)
+sys_brk	./sys.c	/^asmlinkage int sys_brk(unsigned long brk)$/;"	f	signature:(unsigned long brk)
+sys_call_table	./sched.c	/^fn_ptr sys_call_table[] = { sys_setup, sys_exit, sys_fork, sys_read,$/;"	v
+sys_create_module	./module.c	/^sys_create_module(char *module_name, unsigned long size)$/;"	f	signature:(char *module_name, unsigned long size)
+sys_delete_module	./module.c	/^sys_delete_module(char *module_name)$/;"	f	signature:(char *module_name)
+sys_exit	./exit.c	/^asmlinkage int sys_exit(int error_code)$/;"	f	signature:(int error_code)
+sys_fork	./fork.c	/^asmlinkage int sys_fork(struct pt_regs regs)$/;"	f	signature:(struct pt_regs regs)
+sys_ftime	./sys.c	/^asmlinkage int sys_ftime(void)$/;"	f	signature:(void)
+sys_get_kernel_syms	./module.c	/^sys_get_kernel_syms(struct kernel_sym *table)$/;"	f	signature:(struct kernel_sym *table)
+sys_getegid	./sched.c	/^asmlinkage int sys_getegid(void)$/;"	f	signature:(void)
+sys_geteuid	./sched.c	/^asmlinkage int sys_geteuid(void)$/;"	f	signature:(void)
+sys_getgid	./sched.c	/^asmlinkage int sys_getgid(void)$/;"	f	signature:(void)
+sys_getgroups	./sys.c	/^asmlinkage int sys_getgroups(int gidsetsize, gid_t *grouplist)$/;"	f	signature:(int gidsetsize, gid_t *grouplist)
+sys_getitimer	./itimer.c	/^asmlinkage int sys_getitimer(int which, struct itimerval *value)$/;"	f	signature:(int which, struct itimerval *value)
+sys_getpgid	./sys.c	/^asmlinkage int sys_getpgid(pid_t pid)$/;"	f	signature:(pid_t pid)
+sys_getpgrp	./sys.c	/^asmlinkage int sys_getpgrp(void)$/;"	f	signature:(void)
+sys_getpid	./sched.c	/^asmlinkage int sys_getpid(void)$/;"	f	signature:(void)
+sys_getppid	./sched.c	/^asmlinkage int sys_getppid(void)$/;"	f	signature:(void)
+sys_getpriority	./sys.c	/^asmlinkage int sys_getpriority(int which, int who)$/;"	f	signature:(int which, int who)
+sys_getrlimit	./sys.c	/^asmlinkage int sys_getrlimit(unsigned int resource, struct rlimit *rlim)$/;"	f	signature:(unsigned int resource, struct rlimit *rlim)
+sys_getrusage	./sys.c	/^asmlinkage int sys_getrusage(int who, struct rusage *ru)$/;"	f	signature:(int who, struct rusage *ru)
+sys_gettimeofday	./time.c	/^asmlinkage int sys_gettimeofday(struct timeval *tv, struct timezone *tz)$/;"	f	signature:(struct timeval *tv, struct timezone *tz)
+sys_getuid	./sched.c	/^asmlinkage int sys_getuid(void)$/;"	f	signature:(void)
+sys_gtty	./sys.c	/^asmlinkage int sys_gtty(void)$/;"	f	signature:(void)
+sys_init_module	./module.c	/^sys_init_module(char *module_name, char *code, unsigned codesize,$/;"	f	signature:(char *module_name, char *code, unsigned codesize, struct mod_routines *routines)
+sys_ioperm	./ioport.c	/^asmlinkage int sys_ioperm(unsigned long from, unsigned long num, int turn_on)$/;"	f	signature:(unsigned long from, unsigned long num, int turn_on)
+sys_iopl	./ioport.c	/^asmlinkage int sys_iopl(long ebx,long ecx,long edx,$/;"	f	signature:(long ebx,long ecx,long edx, long esi, long edi, long ebp, long eax, long ds, long es, long fs, long gs, long orig_eax, long eip,long cs,long eflags,long esp,long ss)
+sys_kill	./exit.c	/^asmlinkage int sys_kill(int pid,int sig)$/;"	f	signature:(int pid,int sig)
+sys_lock	./sys.c	/^asmlinkage int sys_lock(void)$/;"	f	signature:(void)
+sys_modify_ldt	./ldt.c	/^asmlinkage int sys_modify_ldt(int func, void *ptr, unsigned long bytecount)$/;"	f	signature:(int func, void *ptr, unsigned long bytecount)
+sys_mpx	./sys.c	/^asmlinkage int sys_mpx(void)$/;"	f	signature:(void)
+sys_newuname	./sys.c	/^asmlinkage int sys_newuname(struct new_utsname * name)$/;"	f	signature:(struct new_utsname * name)
+sys_ni_syscall	./sched.c	/^int sys_ni_syscall(void)$/;"	f	signature:(void)
+sys_nice	./sched.c	/^asmlinkage int sys_nice(long increment)$/;"	f	signature:(long increment)
+sys_old_syscall	./sys.c	/^asmlinkage int sys_old_syscall(void)$/;"	f	signature:(void)
+sys_olduname	./sys.c	/^asmlinkage int sys_olduname(struct oldold_utsname * name)$/;"	f	signature:(struct oldold_utsname * name)
+sys_pause	./sched.c	/^asmlinkage int sys_pause(void)$/;"	f	signature:(void)
+sys_phys	./sys.c	/^asmlinkage int sys_phys(void)$/;"	f	signature:(void)
+sys_prof	./sys.c	/^asmlinkage int sys_prof(void)$/;"	f	signature:(void)
+sys_profil	./sys.c	/^asmlinkage int sys_profil(void)$/;"	f	signature:(void)
+sys_ptrace	./ptrace.c	/^asmlinkage int sys_ptrace(long request, long pid, long addr, long data)$/;"	f	signature:(long request, long pid, long addr, long data)
+sys_reboot	./sys.c	/^asmlinkage int sys_reboot(int magic, int magic_too, int flag)$/;"	f	signature:(int magic, int magic_too, int flag)
+sys_setdomainname	./sys.c	/^asmlinkage int sys_setdomainname(char *name, int len)$/;"	f	signature:(char *name, int len)
+sys_setgid	./sys.c	/^asmlinkage int sys_setgid(gid_t gid)$/;"	f	signature:(gid_t gid)
+sys_setgroups	./sys.c	/^asmlinkage int sys_setgroups(int gidsetsize, gid_t *grouplist)$/;"	f	signature:(int gidsetsize, gid_t *grouplist)
+sys_sethostname	./sys.c	/^asmlinkage int sys_sethostname(char *name, int len)$/;"	f	signature:(char *name, int len)
+sys_setitimer	./itimer.c	/^asmlinkage int sys_setitimer(int which, struct itimerval *value, struct itimerval *ovalue)$/;"	f	signature:(int which, struct itimerval *value, struct itimerval *ovalue)
+sys_setpgid	./sys.c	/^asmlinkage int sys_setpgid(pid_t pid, pid_t pgid)$/;"	f	signature:(pid_t pid, pid_t pgid)
+sys_setpriority	./sys.c	/^asmlinkage int sys_setpriority(int which, int who, int niceval)$/;"	f	signature:(int which, int who, int niceval)
+sys_setregid	./sys.c	/^asmlinkage int sys_setregid(gid_t rgid, gid_t egid)$/;"	f	signature:(gid_t rgid, gid_t egid)
+sys_setreuid	./sys.c	/^asmlinkage int sys_setreuid(uid_t ruid, uid_t euid)$/;"	f	signature:(uid_t ruid, uid_t euid)
+sys_setrlimit	./sys.c	/^asmlinkage int sys_setrlimit(unsigned int resource, struct rlimit *rlim)$/;"	f	signature:(unsigned int resource, struct rlimit *rlim)
+sys_setsid	./sys.c	/^asmlinkage int sys_setsid(void)$/;"	f	signature:(void)
+sys_settimeofday	./time.c	/^asmlinkage int sys_settimeofday(struct timeval *tv, struct timezone *tz)$/;"	f	signature:(struct timeval *tv, struct timezone *tz)
+sys_setuid	./sys.c	/^asmlinkage int sys_setuid(uid_t uid)$/;"	f	signature:(uid_t uid)
+sys_sgetmask	./signal.c	/^asmlinkage int sys_sgetmask(void)$/;"	f	signature:(void)
+sys_sigaction	./signal.c	/^asmlinkage int sys_sigaction(int signum, const struct sigaction * action,$/;"	f	signature:(int signum, const struct sigaction * action, struct sigaction * oldaction)
+sys_signal	./signal.c	/^asmlinkage int sys_signal(int signum, unsigned long handler)$/;"	f	signature:(int signum, unsigned long handler)
+sys_sigpending	./signal.c	/^asmlinkage int sys_sigpending(sigset_t *set)$/;"	f	signature:(sigset_t *set)
+sys_sigprocmask	./signal.c	/^asmlinkage int sys_sigprocmask(int how, sigset_t *set, sigset_t *oset)$/;"	f	signature:(int how, sigset_t *set, sigset_t *oset)
+sys_sigreturn	./signal.c	/^asmlinkage int sys_sigreturn(unsigned long __unused)$/;"	f	signature:(unsigned long __unused)
+sys_sigsuspend	./signal.c	/^asmlinkage int sys_sigsuspend(int restart, unsigned long oldmask, unsigned long set)$/;"	f	signature:(int restart, unsigned long oldmask, unsigned long set)
+sys_ssetmask	./signal.c	/^asmlinkage int sys_ssetmask(int newmask)$/;"	f	signature:(int newmask)
+sys_stime	./time.c	/^asmlinkage int sys_stime(long * tptr)$/;"	f	signature:(long * tptr)
+sys_stty	./sys.c	/^asmlinkage int sys_stty(void)$/;"	f	signature:(void)
+sys_sync	./panic.c	/^asmlinkage void sys_sync(void);	\/* it's really int *\/$/;"	p	file:	signature:(void)
+sys_sysinfo	./info.c	/^asmlinkage int sys_sysinfo(struct sysinfo *info)$/;"	f	signature:(struct sysinfo *info)
+sys_syslog	./printk.c	/^asmlinkage int sys_syslog(int type, char * buf, int len)$/;"	f	signature:(int type, char * buf, int len)
+sys_time	./time.c	/^asmlinkage int sys_time(long * tloc)$/;"	f	signature:(long * tloc)
+sys_times	./sys.c	/^asmlinkage int sys_times(struct tms * tbuf)$/;"	f	signature:(struct tms * tbuf)
+sys_tz	./time.c	/^struct timezone sys_tz = { 0, 0};$/;"	v	typeref:struct:timezone
+sys_ulimit	./sys.c	/^asmlinkage int sys_ulimit(void)$/;"	f	signature:(void)
+sys_umask	./sys.c	/^asmlinkage int sys_umask(int mask)$/;"	f	signature:(int mask)
+sys_uname	./sys.c	/^asmlinkage int sys_uname(struct old_utsname * name)$/;"	f	signature:(struct old_utsname * name)
+sys_vm86	./sys.c	/^asmlinkage int sys_vm86(struct vm86_struct * v86)$/;"	f	signature:(struct vm86_struct * v86)
+sys_wait4	./exit.c	/^asmlinkage int sys_wait4(pid_t pid,unsigned long * stat_addr, int options, struct rusage * ru)$/;"	f	signature:(pid_t pid,unsigned long * stat_addr, int options, struct rusage * ru)
+sys_waitpid	./exit.c	/^asmlinkage int sys_waitpid(pid_t pid,unsigned long * stat_addr, int options)$/;"	f	signature:(pid_t pid,unsigned long * stat_addr, int options)
+sys_waitpid	./signal.c	/^asmlinkage int sys_waitpid(pid_t pid,unsigned long * stat_addr, int options);$/;"	p	file:	signature:(pid_t pid,unsigned long * stat_addr, int options)
+syscall_trace	./ptrace.c	/^asmlinkage void syscall_trace(void)$/;"	f	signature:(void)
+system_call	./sched.c	/^asmlinkage int system_call(void);$/;"	p	file:	signature:(void)
+task	./sched.c	/^struct task_struct * task[NR_TASKS] = {&init_task, };$/;"	v	typeref:struct:task_struct
+tick	./sched.c	/^long tick = 1000000 \/ HZ;               \/* timer interrupt period *\/$/;"	v
+tickadj	./sched.c	/^int tickadj = 500\/HZ;			\/* microsecs *\/$/;"	v
+time_adj	./sched.c	/^long time_adj = 0;              \/* tick adjust (scaled 1 \/ HZ) *\/$/;"	v
+time_adjust	./sched.c	/^long time_adjust = 0;$/;"	v
+time_adjust_step	./sched.c	/^long time_adjust_step = 0;$/;"	v
+time_constant	./sched.c	/^long time_constant = 0;         \/* pll time constant *\/$/;"	v
+time_esterror	./sched.c	/^long time_esterror = 0x70000000;\/* estimated error *\/$/;"	v
+time_freq	./sched.c	/^long time_freq = 0;             \/* frequency offset (scaled ppm) *\/$/;"	v
+time_init	./time.c	/^void time_init(void)$/;"	f	signature:(void)
+time_maxerror	./sched.c	/^long time_maxerror = 0x70000000;\/* maximum error *\/$/;"	v
+time_offset	./sched.c	/^long time_offset = 0;           \/* time adjustment (us) *\/$/;"	v
+time_phase	./sched.c	/^long time_phase = 0;            \/* phase offset (scaled us) *\/$/;"	v
+time_precision	./sched.c	/^long time_precision = 1; 	\/* clock precision (us) *\/$/;"	v
+time_reftime	./sched.c	/^long time_reftime = 0;          \/* time at last adjustment (s) *\/$/;"	v
+time_status	./sched.c	/^int time_status = TIME_BAD;     \/* clock synchronization status *\/$/;"	v
+time_tolerance	./sched.c	/^long time_tolerance = MAXFREQ;  \/* frequency tolerance (ppm) *\/$/;"	v
+timer_active	./sched.c	/^unsigned long timer_active = 0;$/;"	v
+timer_bh	./sched.c	/^static void timer_bh(void * unused)$/;"	f	file:	signature:(void * unused)
+timer_interrupt	./sched.c	/^extern int timer_interrupt(void);$/;"	p	file:	signature:(void)
+timer_table	./sched.c	/^struct timer_struct timer_table[32];$/;"	v	typeref:struct:timer_struct
+trap_init	./traps.c	/^void trap_init(void)$/;"	f	signature:(void)
+trapno	./signal.c	/^	unsigned long trapno;$/;"	m	struct:sigcontext_struct	file:	access:public
+tvtojiffies	./itimer.c	/^static unsigned long tvtojiffies(struct timeval *value)$/;"	f	file:	signature:(struct timeval *value)
+user_stack	./sched.c	/^long user_stack [ PAGE_SIZE>>2 ] ;$/;"	v
+v86_signal_return	./sys_call.S	/^v86_signal_return:$/;"	l
+vsprintf	./panic.c	/^extern int vsprintf(char * buf, const char * fmt, va_list args);$/;"	p	file:	signature:(char * buf, const char * fmt, va_list args)
+vsprintf	./printk.c	/^extern int vsprintf(char * buf, const char * fmt, va_list args);$/;"	p	file:	signature:(char * buf, const char * fmt, va_list args)
+vsprintf	./vsprintf.c	/^int vsprintf(char *buf, const char *fmt, va_list args)$/;"	f	signature:(char *buf, const char *fmt, va_list args)
+wake_up	./sched.c	/^void wake_up(struct wait_queue **q)$/;"	f	signature:(struct wait_queue **q)
+wake_up_interruptible	./sched.c	/^void wake_up_interruptible(struct wait_queue **q)$/;"	f	signature:(struct wait_queue **q)
+warp_clock	./time.c	/^inline static void warp_clock(void)$/;"	f	file:	signature:(void)
+wp_works_ok	./sched.c	/^int wp_works_ok = 0;		\/* set if paging hardware honours WP *\/ $/;"	v
+write_ldt	./ldt.c	/^static int write_ldt(void * ptr, unsigned long bytecount)$/;"	f	file:	signature:(void * ptr, unsigned long bytecount)
+write_long	./ptrace.c	/^static int write_long(struct task_struct * tsk, unsigned long addr,$/;"	f	file:	signature:(struct task_struct * tsk, unsigned long addr, unsigned long data)
+x86	./sched.c	/^int x86 = 0;			\/* set by boot\/head.S to 3 or 4 *\/$/;"	v
+xtime	./sched.c	/^volatile struct timeval xtime;		\/* The current time *\/$/;"	v	typeref:struct:timeval
